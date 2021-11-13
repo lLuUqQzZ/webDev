@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", sans-serif;
+  color: #00a19d;
+}
+
+h2 {
+  font-family: "Montserra", sans-serif;
+  font-size: 2.5rem;
+  color: #00a19d;
+}
+
+h3 {
+  font-family: "Montserra", sans-serif;
+  color: #ffb344;
+  font-size: 1.2rem;
+}
+
+a {
+  color: #ffb344;
+}
+
+.aprogrammer {
+  font-weight: normal;
+}
+
+.top-container {
+  background-color: #fff8e5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.coding-image {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.gaming-image {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.bottom-container {
+  background-color: #00a19d;
+  padding-top: 20px;
+}
+
+.bottom-container p {
+  color: white;
+  font-size: 0.5rem;
+}
+
+.bottom-container a {
+  font-size: small;
+  margin: 0 100px 10px 100px;
+  color: #ffb344;
+  text-decoration: none;
+}
+
+.bottom-container a:hover {
+  color: white;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottomcloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.topcloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.contact-me {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.contact-message {
+  width: 20%;
+  margin: 10px auto 40px auto;
+}
+
+.hello-message {
+  width: 20%;
+  margin: 10px auto 50px auto;
+}
+
+.btn {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-family: "Montserra", sans-serif;
+  font-size: 10px;
+  padding: 15px;
+  background-color: #00a19d;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  background: #e05d5d;
+  border: solid #e05d5d 1px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+hr {
+  width: 300px;
+  border-style: dashed;
+  color: #ffb344;
+}

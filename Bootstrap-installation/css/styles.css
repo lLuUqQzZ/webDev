@@ -1,0 +1,158 @@
+body {
+    font-family: "Montserrat";
+}
+
+h1 {
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: "Montserrat";
+}
+
+p {
+    color: #8f8f8f;
+    font-weight: lighter;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+#features {
+    padding: 7% 15%;
+    font-size: 1rem;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #E66968;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #FF4C68;
+}
+
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-dark .navbar-brand {
+    color: #fff;
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: lighter;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0%;
+}
+
+.title-image {
+    width: 40%;
+    transform: rotate(25deg);
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #E66968;
+    color: #fff;
+}
+
+.testi-image {
+    border-radius: 50%;
+    width: 10%;
+    margin: 20px;
+    margin-left: 200px;
+}
+
+#press {
+    background-color: #E66968;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.press-img {
+    width: 10%;
+    margin: 20px 25px 50px;
+}
+
+.card-group {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.pricing-text {
+    text-align: center;
+}
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-button {
+    margin-top: 40px;
+}
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 100px;
+}
+
+#footer {
+    text-align: center;
+    background-color: #fff;
+    padding-top: 30px;
+}
+
+.footer-icons-group {
+    text-align: center;
+    margin: 20px
+}
